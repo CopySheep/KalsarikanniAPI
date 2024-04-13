@@ -1,0 +1,376 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "AppDbContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "HotelFuen31.APIs",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Authorizations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusRoutes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusTrackers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarMaintenance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarManagements]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarPrices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarRentCartItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarRentOrderItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarRentOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarResponsible]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Cars]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarTaxiCartItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarTaxiOrderItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarTaxiOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CartRoomItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[cipher]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponMember]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponRoomCountSameDate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponRoomTimeSpan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Coupons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponThresholdDiscount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallDishCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallMenus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallMenuSchedules]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallOrderItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MemberLevels]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Members]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Notifications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificationTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Appointment_Time_Period]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Item]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Room]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Room_Status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Room_Type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Service_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Services_Type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservation_Status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RestaurantCustomers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RestaurantPeriods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RestaurantReservations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RestaurantSeats]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RestaurantStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoleAuthorizations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Roles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoomBookings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoomCalendar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoomDetailImg]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rooms]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoomStatusSetting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoomTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SendedNotifications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShoppingCartDiscounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShoppingCartDiscounts_PriceEquals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShoppingCartDiscounts_PriceReduce]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShoppingCartDiscounts_TheQuantities]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShoppingCartDiscounts_TotalQuantities]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShoppingCartOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[AggregatedCounter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[Counter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[Hash]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[Job]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[JobParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[JobQueue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[List]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[Schema]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[Server]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[Set]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[HangFire].[State]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HallOrderVw]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[Reservation_TotalPriceView]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[RoomDaysPrice]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[SCDs_OQ]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[SCDs_PE]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[SCDs_PR]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[SCDs_TQ]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[usp_房間查詢]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[usp_計算訂房價格]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
