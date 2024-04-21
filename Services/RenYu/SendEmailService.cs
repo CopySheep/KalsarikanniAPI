@@ -24,7 +24,7 @@ namespace HotelFuen31.APIs.Services.RenYu
         private void SmtpEmail(string subject ,string toEmail ,Func<string> template)
         {
             string sender = "kalsarihotel@gmail.com";
-            string appPassword = "tuastatfwzzxbhmg";
+            string appPassword = "";
 
             SmtpClient smtpClient = new SmtpClient("smtp.gmail.com")
             {
